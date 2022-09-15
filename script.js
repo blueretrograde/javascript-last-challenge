@@ -24,9 +24,13 @@ convertDaysToAge(3680);
 //3 - Largest Number
 
 function getLargestNumber(number1, number2, number3) { 
-    console.log(Math.max(number1, number2, number3));
+    console.log("The largest number is " + Math.max(number1, number2, number3));
 
 }
 
 getLargestNumber(3, 18, 17);
 
+//4 - Last Name of the List
+
+    const listOfNames = ["Charlie", "Rob", "Andy"];
+    console.log(listOfNames[2]);
