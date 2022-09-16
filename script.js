@@ -34,3 +34,14 @@ getLargestNumber(3, 18, 17);
 
     const listOfNames = ["Charlie", "Rob", "Andy"];
     console.log(listOfNames[2]);
+
+//5 - All numbers positive
+
+    const numberlist = [1, 3 ,6]
+    let result = true;
+    for (let index = 0; index < numberlist.length; index++)
+        if(numberlist[index] <= 0) {
+            result = false;
+            break;
+        }
+console.log("The numbers are positive: " + result);
